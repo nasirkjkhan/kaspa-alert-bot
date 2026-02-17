@@ -2,6 +2,8 @@ import aiosqlite
 import os
 import logging
 
+from bot.config import DATABASE_PATH  # ← FIXED: import added here
+
 logger = logging.getLogger(__name__)
 
 class Database:
