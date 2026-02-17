@@ -3,7 +3,8 @@ import aiohttp
 import logging
 
 from bot.database import Database
-from bot.config import CHECK_INTERVAL_SECONDS
+from bot.config import CHECK_INTERVAL_SECONDS  # ← FIXED: import added here
+
 from aiogram import Bot
 
 logger = logging.getLogger(__name__)
